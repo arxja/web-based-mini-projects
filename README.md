@@ -370,15 +370,15 @@ You are free to use these projects for learning, personal projects, and portfoli
 
 ## 🔗 Links
 
-- 📦 [Repository](https://github.com/arash-jj/web-based-mini-projects)
-- 👤 [Author - arash-jj](https://github.com/arash-jj)
-- 🌐 [All Projects](https://github.com/arash-jj/web-based-mini-projects/tree/main/projects)
+- 📦 [Repository](https://github.com/arxja/web-based-mini-projects)
+- 👤 [Author - arxja](https://github.com/arxja)
+- 🌐 [All Projects](https://github.com/arxja/web-based-mini-projects/tree/main/projects)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by [arash-jj](https://github.com/arash-jj)**
+**Made with ❤️ by [arxja](https://github.com/arxja)**
 
 *Helping developers master web development, one project at a time* 🚀
 
