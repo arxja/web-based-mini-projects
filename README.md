@@ -69,7 +69,8 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 7 | **Search Query Engine** | Engine | Intermediate | ✅ | [→](projects/search-query-engine/) |
 | 8 | **Undo and Redo Engine** | Engine| Intermediate | ✅ | [→](projects/redo-undo-engine/) |
 | 9 | **Command Palette Engine** | Engine and UI | Intermediate | ✅ | [→](projects/command-palette-engine/) |
-| 9 | **Advance local file system and data management** | CLI | Intermediate | ✅ | [→](projects/advance-local-file-system-and-data-management) |
+| 10 | **Advance local file system and data management** | CLI | Intermediate | ✅ | [→](projects/advance-local-file-system-and-data-management) |
+| 11 | **Todo-api** | API | Beginner | ✅ | [→](projects/todo-api/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
@@ -113,6 +114,7 @@ Most projects work immediately in your browser.  No npm packages or build tools 
 - **Motion**
 - **Tailwindcss**
 - **Vite**
+- **Express**
 
 ---
 
@@ -127,6 +129,7 @@ Start here if you're new to web development:
 4. **Memory Cards Game** - Arrays & game state
 5. **Rock Paper Scissors** - Random logic & conditionals
 6. **Gradient Color Generator** - Color manipulation
+7. **Todo-api** - Basic CRUD operations
 
 ### 🟡 Intermediate Level
 Build upon your fundamentals:
