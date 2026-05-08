@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "task": "Learn Express",
+    "completed": false
+  },
+  {
+    "id": 2,
+    "task": "Build CRUD API",
+    "completed": false
+  },
+  {
+    "id": 3,
+    "task": "say hii",
+    "complete": false
+  },
+  {
+    "id": 4,
+    "task": "buy coffee",
+    "complete": false
+  }
+]
