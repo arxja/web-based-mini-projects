@@ -1,0 +1,313 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    "Segoe UI",
+    "Inter",
+    "SF Pro Text",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Roboto",
+    sans-serif;
+}
+
+body {
+  background: linear-gradient(145deg, #eff3f8 0%, #e6ecf4 100%);
+  min-height: 100vh;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+/* modern glassmorphic card */
+.container {
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(2px);
+  border-radius: 2rem;
+  box-shadow:
+    0 20px 35px -12px rgba(0, 0, 0, 0.2),
+    0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+}
+
+/* input section with copy + strength glow */
+.input-container {
+  padding: 1.8rem 1.8rem 1.2rem 1.8rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e9edf2;
+  position: relative;
+}
+
+.password-field {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #f8faff;
+  border-radius: 2rem;
+  padding: 0.2rem 0.2rem 0.2rem 1.2rem;
+  border: 1px solid #e2e9f2;
+  transition: all 0.2s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+.password-field:focus-within {
+  border-color: #7c5cff;
+  box-shadow: 0 0 0 4px rgba(124, 92, 255, 0.15);
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 56px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: "SF Mono", "Fira Code", monospace;
+  color: #1a2c3e;
+  padding: 0;
+}
+
+input[type="text"]::placeholder {
+  color: #b9c8e0;
+  font-weight: 400;
+  font-family: system-ui;
+  letter-spacing: normal;
+  font-size: 0.95rem;
+}
+
+.copy-btn {
+  background: #f0f4f9;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #3e5a7a;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+.copy-btn:hover {
+  background: #e6edf6;
+  color: #1f3a5f;
+}
+.copy-btn:active {
+  transform: scale(0.96);
+}
+.copy-toast {
+  position: absolute;
+  right: 2rem;
+  top: 0.8rem;
+  background: #1f2f3e;
+  color: white;
+  padding: 0.25rem 0.9rem;
+  border-radius: 40px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+/* strength meter */
+.strength-wrapper {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: space-between;
+}
+.strength-bars {
+  display: flex;
+  gap: 6px;
+  flex: 1;
+}
+.strength-bar {
+  height: 6px;
+  flex: 1;
+  background: #e2e8f0;
+  border-radius: 12px;
+  transition:
+    background 0.2s,
+    flex 0.1s;
+}
+.strength-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #6b7f98;
+  min-width: 68px;
+  text-align: right;
+}
+
+/* options panel */
+.options-container {
+  padding: 1.5rem 1.8rem 1.5rem 1.8rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.option-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.length-control {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: #f8fafe;
+  padding: 0.3rem 0.8rem;
+  border-radius: 3rem;
+  border: 1px solid #e9eef4;
+}
+.length-control span {
+  font-weight: 600;
+  color: #1f3a5f;
+  font-size: 0.9rem;
+}
+#lengthValue {
+  font-weight: 700;
+  background: #ffffff;
+  padding: 0.2rem 0.6rem;
+  border-radius: 32px;
+  min-width: 44px;
+  text-align: center;
+  font-size: 0.95rem;
+}
+input[type="range"] {
+  width: 180px;
+  height: 4px;
+  -webkit-appearance: none;
+  background: #dae4ef;
+  border-radius: 10px;
+  outline: none;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #7c5cff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+}
+
+/* checkboxes row */
+.checkboxes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  row-gap: 0.8rem;
+}
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #f9fbfe;
+  padding: 0.4rem 1rem 0.4rem 0.8rem;
+  border-radius: 40px;
+  border: 1px solid #eff3f8;
+  transition: all 0.1s;
+}
+.checkbox-item:hover {
+  background: #f2f6fd;
+  border-color: #cfddeb;
+}
+.checkbox-item input {
+  width: 18px;
+  height: 18px;
+  accent-color: #7c5cff;
+  cursor: pointer;
+  margin: 0;
+}
+.checkbox-item label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #1f2f3e;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* generate button */
+.gen-btn-wrapper {
+  padding: 0 1.8rem 1.8rem 1.8rem;
+}
+button {
+  width: 100%;
+  background: linear-gradient(105deg, #7c5cff 0%, #9a7bff 100%);
+  border: none;
+  padding: 0.9rem 0;
+  border-radius: 2.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 8px 20px -8px rgba(124, 92, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+button:hover {
+  background: linear-gradient(105deg, #6848f0 0%, #8b6bff 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 12px 22px -10px rgba(124, 92, 255, 0.5);
+}
+button:active {
+  transform: translateY(1px);
+  box-shadow: 0 6px 14px -6px rgba(124, 92, 255, 0.4);
+}
+
+/* extra shiny divider */
+hr {
+  margin: 0 1.8rem;
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, #e2e8f0, #becddc, #e2e8f0);
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 96%;
+  }
+  .input-container,
+  .options-container {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  .checkbox-item {
+    padding: 0.3rem 0.8rem 0.3rem 0.6rem;
+  }
+  input[type="range"] {
+    width: 140px;
+  }
+}
