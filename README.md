@@ -72,6 +72,10 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 10 | **Advance local file system and data management** | CLI | Intermediate | ✅ | [→](projects/advance-local-file-system-and-data-management) |
 | 11 | **Todo-api** | API | Beginner | ✅ | [→](projects/todo-api/) |
 | 12 | **Password Generator** | Algorithm | Beginner | ✅ | [→](projects/password-generator/) |
+| 13 | **Recreative System** | System | Intermediate | ✅ | [→](projects/reactive-system/) |
+| 14 | **Virtual Dom** | Algorithm | Intermediate | ✅ | [→](projects/virtual-dom/) |
+| 15 | **Event Emitter** | Algorithm | Intermediate | ✅ | [→](projects/event-emitter/) |
+| 16 | **LRU Cache** | Data Structure | Intermediate | ✅ | [→](projects/lru-cache/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
@@ -116,6 +120,8 @@ Most projects work immediately in your browser.  No npm packages or build tools 
 - **Tailwindcss**
 - **Vite**
 - **Express**
+- **Bun**
+- **Nodejs**
 
 ---
 
@@ -147,6 +153,10 @@ Build upon your fundamentals:
 9. **Virtualized List Engine** - DOM illusion
 10. **Search Query Engine** - Real search engine
 11. **Undo and Redo Engine** - Undo and Redo logic
+12. **Recreative System** - Sync dom with data
+13. **LRU Cache** - Caching strategy
+14. **Virtual Dom** - Fast instance of real DOM
+15. **Event Emitter** - Event manger
 
 ### 🔴 Advanced Level
 Challenge yourself: 
