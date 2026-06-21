@@ -76,6 +76,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 14 | **Virtual Dom** | Algorithm | Intermediate | ✅ | [→](projects/virtual-dom/) |
 | 15 | **Event Emitter** | Algorithm | Intermediate | ✅ | [→](projects/event-emitter/) |
 | 16 | **LRU Cache** | Data Structure | Intermediate | ✅ | [→](projects/lru-cache/) |
+| 17 | **Sliding Window Analyzer** | Algorithm | Intermediate | ✅ | [→](projects/sliding-window-analyzer/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
@@ -157,6 +158,7 @@ Build upon your fundamentals:
 13. **LRU Cache** - Caching strategy
 14. **Virtual Dom** - Fast instance of real DOM
 15. **Event Emitter** - Event manger
+16. **Sliding Window Analyzer** - Sliding window & Two pointers
 
 ### 🔴 Advanced Level
 Challenge yourself: 
