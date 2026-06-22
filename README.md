@@ -77,6 +77,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 15 | **Event Emitter** | Algorithm | Intermediate | ✅ | [→](projects/event-emitter/) |
 | 16 | **LRU Cache** | Data Structure | Intermediate | ✅ | [→](projects/lru-cache/) |
 | 17 | **Sliding Window Analyzer** | Algorithm | Intermediate | ✅ | [→](projects/sliding-window-analyzer/) |
+| 18 | **File System Scanner** | Algorithm | Intermediate | ✅ | [→](projects/file-system-scanner/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
@@ -159,6 +160,7 @@ Build upon your fundamentals:
 14. **Virtual Dom** - Fast instance of real DOM
 15. **Event Emitter** - Event manger
 16. **Sliding Window Analyzer** - Sliding window & Two pointers
+17. **File System Scanner** - Recursion & Tree Traversal (DFS/BFS) 
 
 ### 🔴 Advanced Level
 Challenge yourself: 
