@@ -80,6 +80,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 18 | **File System Scanner** | Algorithm | Intermediate | ✅ | [→](projects/file-system-scanner/) |
 | 19 | **Course Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/course-scheduler/) |
 | 20 | **Priority Queue** | Algorithm | Intermediate | ✅ | [→](projects/priority-queue/) |
+| 20 | **Promise Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/promise-scheduler/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
@@ -165,6 +166,7 @@ Build upon your fundamentals:
 17. **File System Scanner** - Recursion & Tree Traversal (DFS/BFS) 
 18. **Courser Scheduler** - Graph Representation & Topological Sort (Kahn)
 19. **Priority Queue** - Priority Queue (Binary Heap)
+20. **Promise Scheduler** - Promise Scheduler (Concurrency Control)
 
 ### 🔴 Advanced Level
 Challenge yourself: 
