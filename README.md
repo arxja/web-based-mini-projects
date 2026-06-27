@@ -80,7 +80,9 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 18 | **File System Scanner** | Algorithm | Intermediate | ✅ | [→](projects/file-system-scanner/) |
 | 19 | **Course Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/course-scheduler/) |
 | 20 | **Priority Queue** | Algorithm | Intermediate | ✅ | [→](projects/priority-queue/) |
-| 20 | **Promise Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/promise-scheduler/) |
+| 21 | **Promise Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/promise-scheduler/) |
+| 22 | **State Machine** | Algorithm | Intermediate | ⏳ | [→](projects/) |
+| 23 | **Dependency Injection Container** | Algorithm | Intermediate | ⏳ | [→](projects/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
