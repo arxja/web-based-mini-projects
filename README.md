@@ -81,7 +81,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | 19 | **Course Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/course-scheduler/) |
 | 20 | **Priority Queue** | Algorithm | Intermediate | ✅ | [→](projects/priority-queue/) |
 | 21 | **Promise Scheduler** | Algorithm | Intermediate | ✅ | [→](projects/promise-scheduler/) |
-| 22 | **State Machine** | Algorithm | Intermediate | ⏳ | [→](projects/) |
+| 22 | **State Machine** | Algorithm | Intermediate | ✅ | [→](projects/state-machine) |
 | 23 | **Dependency Injection Container** | Algorithm | Intermediate | ⏳ | [→](projects/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
@@ -169,6 +169,7 @@ Build upon your fundamentals:
 18. **Courser Scheduler** - Graph Representation & Topological Sort (Kahn)
 19. **Priority Queue** - Priority Queue (Binary Heap)
 20. **Promise Scheduler** - Promise Scheduler (Concurrency Control)
+21. **State Machine** - State Machine (Finite State)
 
 ### 🔴 Advanced Level
 Challenge yourself: 
