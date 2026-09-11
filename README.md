@@ -109,6 +109,7 @@ A comprehensive collection of **web-based mini projects** designed to help devel
 | --- | --------------------- | -------------- | ---------- | ------------------------------------------------- | ------ | -------------- |
 | 1   | **Undo/redo manager** | Data Structure | Advance    | using a command stack (like a mini‑Redux history) | ✅     | [→](projects/redo-undo-manager) |
 | 2   | **Mini-Router** | Data Structure | Advance    | Mini‑router with path‑to‑component mapping using a trie (nested routes) | ✅     | [→](projects/mini-router/) |
+| 3   | **Custom hashmap** | Data Structure | Advance    | Custom `HashMap` implementation that mimics JavaScript’s `Map` (any key type, chain buckets) | ✅     | [→](projects/hashmap/) |
 
 > **📌 To add a new project:** See [➕ Add New Project](#-add-new-project) section below
 
